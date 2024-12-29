@@ -4204,6 +4204,23 @@ body{
 	flex-basis: 40%;
 	font-size: 0.85rem;
   } */
+   /* research papers page styling */
+.publications{
+	margin-top: 5rem;
+  }
+  .publication-description{
+	margin: 0 0 5rem;
+	line-height: 2rem;
+	overflow: hidden;
+  }
+  .publication-description:nth-of-type(even) img {
+	float: right;
+	margin-left: 2em;
+  }
+  .publication-description:nth-of-type(odd) img {
+	float: left;
+	margin-right: 2em;
+  }
 
   .single-service .member-info{
 	margin-top: 30px;
