@@ -309,8 +309,10 @@ body{
 }
 .header .logo {
 	float: left;
-	margin-top: 18px;
-	height: 10px;
+	margin-top: 13px;
+	height: 55px;
+	width: 100px;
+	/* border: 1px solid red; */
 }
 .header .navbar {
 	background: none;
@@ -1091,6 +1093,7 @@ body{
 	color: #fff;
 	margin: 30px 0px;
 	font-size: 15px;
+	line-height: 2rem;
 }
 .call-action .content .btn{
 	background:#fff;
@@ -1723,7 +1726,8 @@ body{
 	position:relative;
 }
 .clients .single-clients{
-	
+	display: flex;
+	justify-content: space-between;
 }
 .clients .single-clients img {
 	width: 100%;
@@ -4242,4 +4246,4 @@ body{
 :root {
 	--main-color: #336799;
 	/* --pane-padding: 5px 42px; */
-  }
+}
