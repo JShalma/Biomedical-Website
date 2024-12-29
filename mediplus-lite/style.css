@@ -4241,7 +4241,34 @@ body{
 .about-text p{
 	padding-bottom: 1rem;
 }
+.pipeline-progress {
+	padding-bottom: 0;
+}
+.pipeline-progress td, .pipeline-progress th{
+	/* border: 1px solid red; */
+	text-align: center;
+	font-size: 1.25rem;
 
+}
+.pipeline-progress td svg{
+	/* border: 1px solid red; */
+	color: var(--main-color);
+	text-align: center;
+}
+.pipeline-info .molecule-info {
+	display: flex;
+	justify-content: space-between;
+}
+.pipeline-info .molecule-info > div:nth-of-type(1){
+	flex-basis: 25%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* border: 1px solid red; */
+}
+.pipeline-info .molecule-info > div:nth-of-type(2){
+	flex-basis: 70%;
+}
 
 :root {
 	--main-color: #336799;
